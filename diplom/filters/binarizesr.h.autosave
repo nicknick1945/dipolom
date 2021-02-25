@@ -1,0 +1,13 @@
+#ifndef BINARIZESR_H
+#define BINARIZESR_H
+#include <platform/logger/haslogger.h>
+#include "qimage.h"
+
+
+class Binarizesr : public HasLogger{
+public:
+    Binarizesr();
+    void doBinary(QImage &)
+};
+
+#endif // BINARIZESR_H
